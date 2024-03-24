@@ -4,14 +4,15 @@
 using namespace std;
 
 void play(string answer,string userInput);
+string makeNum();
 
 int main(void)
 {
     string answer;
     string userInput;
 
-    cout << "Enter a answer: ";
-    cin >> answer;
+    answer = makeNum();
+    cout<<"Answer is "<<answer<<endl;
     while (answer!=userInput)
     {
         cout << "Enter a guess: ";
