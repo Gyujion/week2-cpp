@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void play(string answer, string userInput)
+void play(string answer, string userInput,int chance)
 {
     int strike = 0, ball = 0;
 
@@ -20,8 +20,16 @@ void play(string answer, string userInput)
             }
         }
     }
-    if (answer == userInput)
-        cout<<"You Win!"<<endl;
+    if ((chance!=0&&answer == userInput)||(chance==0&&answer==userInput))
+    {
+        cout << "You win!" << endl;
+        return;
+    }
+    else if(chance == 0&&answer!=userInput)
+    {
+        cout<<"You lose!"<<endl;
+        return;
+    }
     else
         cout << "Strikes: " << strike << ", Balls: " << ball << endl;
 }
