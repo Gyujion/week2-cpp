@@ -3,25 +3,21 @@
 
 using namespace std;
 
-void play(string answer, string userInput,int chance);
-string makeNum();
+void play(string answer,string userInput);
 
 int main(void)
 {
-    string userInput = "";
-    string answer = makeNum();
-    int chance = 5;
+    string answer;
+    string userInput;
 
-    while (answer != userInput)
+    cout << "Enter a answer: ";
+    cin >> answer;
+    while (answer!=userInput)
     {
-        cout << chance << " chances left." << endl;
         cout << "Enter a guess: ";
         cin >> userInput;
 
-        chance--;
-        play(answer, userInput,chance);
-        if(chance==0)
-            break;
+        play(answer,userInput);
     }
 
     return 0;
