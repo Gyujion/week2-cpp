@@ -3,3 +3,6 @@
 
 숫자야구 v2 실행 캡쳐
 ![week2_v2](https://github.com/Gyujion/week2-cpp/assets/145888221/e5c36bef-6354-4843-9457-9a5c6f0c509c)
+
+숫자야구 v3 실행 캡쳐(승리 시)
+![숫자야구 v3 승리](https://github.com/Gyujion/week2-cpp/assets/145888221/c10f81dd-1e75-4522-9e02-e8b242b736c5)
