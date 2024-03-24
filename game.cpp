@@ -21,7 +21,7 @@ void play(string answer, string userInput)
         }
     }
     if (answer == userInput)
-        cout<<"You win!"<<endl;
+        cout<<"You Win!"<<endl;
     else
         cout << "Strikes: " << strike << ", Balls: " << ball << endl;
 }

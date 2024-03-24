@@ -10,11 +10,11 @@ int main(void)
     string answer;
     string userInput;
 
-    cout << "Enter a answer: ";
+    cout << "Enter a Answer: ";
     cin >> answer;
     while (answer!=userInput)
     {
-        cout << "Enter a guess: ";
+        cout << "Enter a Guess: ";
         cin >> userInput;
 
         play(answer,userInput);
